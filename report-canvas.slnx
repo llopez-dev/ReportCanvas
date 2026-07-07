@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/apps/" />
+  <Folder Name="/apps/api/" />
+  <Folder Name="/apps/api/src/">
+    <Project Path="apps/api/src/ReportCanvas.Api/ReportCanvas.Api.csproj" />
+    <Project Path="apps/api/src/ReportCanvas.Application/ReportCanvas.Application.csproj" />
+    <Project Path="apps/api/src/ReportCanvas.Domain/ReportCanvas.Domain.csproj" />
+    <Project Path="apps/api/src/ReportCanvas.Infrastructure/ReportCanvas.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/apps/api/tests/">
+    <Project Path="apps/api/tests/ReportCanvas.IntegrationTests/ReportCanvas.IntegrationTests.csproj" />
+    <Project Path="apps/api/tests/ReportCanvas.UnitTests/ReportCanvas.UnitTests.csproj" />
+  </Folder>
+</Solution>

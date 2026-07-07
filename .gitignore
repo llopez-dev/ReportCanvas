@@ -1,0 +1,85 @@
+# ─── .NET / C# ────────────────────────────────────────────────────────────────
+## Build output
+bin/
+obj/
+out/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docobj
+*.userprefs
+
+## Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## EF Core migrations temp
+*.mdf
+*.ldf
+
+# ─── Secrets & Environments ───────────────────────────────────────────────────
+## Never commit real secrets - keep appsettings.Development.json local
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+.env
+.env.*
+!.env.example
+
+# ─── Node / Angular ───────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+## Angular build outputs
+apps/web/dist/
+apps/web/tmp/
+apps/web/out-tsc/
+apps/web/.angular/
+
+## Angular test coverage
+apps/web/coverage/
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+## Don't commit volume data
+docker-volumes/
+
+# ─── IDEs & Editors ───────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*.code-workspace
+
+# ─── OS Files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ─── Logs & Temp ──────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.cache
+
+# ─── Test Results ─────────────────────────────────────────────────────────────
+TestResults/
+coverage/
+*.trx
+*.coveragexml
